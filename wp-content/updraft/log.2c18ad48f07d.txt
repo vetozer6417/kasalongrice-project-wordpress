@@ -1,0 +1,500 @@
+0000.000 (0) Opened log file at time: Thu, 28 Mar 2024 22:14:43 +0000 on https://www.kasalongrice.com
+0000.001 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.2 WP: 6.4.3 PHP: 8.3.4 (fpm-fcgi, Linux thsv84.hostatom.com 6.1.0-18-amd64 #1 SMP PREEMPT_DYNAMIC Debian 6.1.76-1 (2024-02-01) x86_64) MySQL: 10.11.6-MariaDB-0+deb12u1-log (max packet size=33554432) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 10M | 12M) multisite: N openssl: OpenSSL 3.0.11 19 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.002 (0) Free space on disk containing Updraft's temporary directory: 3457365.8 MB
+0000.004 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.007 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.008 (0) Set semaphore last lock (fd) time to 2024-03-28 22:14:43
+0000.009 (0) Semaphore lock (fd) complete
+0000.012 (0) Backup run: resumption=0, nonce=2c18ad48f07d, file_nonce=2c18ad48f07d begun at=1711664083 (0s ago), job type=backup
+0000.013 (0) Scheduling a resumption (1) after 300 seconds (1711664383) in case this run gets aborted
+0000.016 (0) PHP event: code E_WARNING: file_exists(): open_basedir restriction in effect. File(/proc/user_beancounters) is not within the allowed path(s): (/var/www/vhosts/kasalongrice.com/:/tmp/) (line 190, wp-content/plugins/updraftplus/backup.php)
+0000.016 (0) Checking if we have a zip executable available
+0000.017 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/usr/bin/zip) is not within the allowed path(s): (/var/www/vhosts/kasalongrice.com/:/tmp/) (line 1811, wp-content/plugins/updraftplus/class-updraftplus.php)
+0000.018 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/bin/zip) is not within the allowed path(s): (/var/www/vhosts/kasalongrice.com/:/tmp/) (line 1811, wp-content/plugins/updraftplus/class-updraftplus.php)
+0000.019 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/usr/local/bin/zip) is not within the allowed path(s): (/var/www/vhosts/kasalongrice.com/:/tmp/) (line 1811, wp-content/plugins/updraftplus/class-updraftplus.php)
+0000.019 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/usr/sfw/bin/zip) is not within the allowed path(s): (/var/www/vhosts/kasalongrice.com/:/tmp/) (line 1811, wp-content/plugins/updraftplus/class-updraftplus.php)
+0000.020 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/usr/xdg4/bin/zip) is not within the allowed path(s): (/var/www/vhosts/kasalongrice.com/:/tmp/) (line 1811, wp-content/plugins/updraftplus/class-updraftplus.php)
+0000.021 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/opt/bin/zip) is not within the allowed path(s): (/var/www/vhosts/kasalongrice.com/:/tmp/) (line 1811, wp-content/plugins/updraftplus/class-updraftplus.php)
+0000.022 (0) Creation of backups of directories: beginning
+0000.025 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.027 (0) PHP event: code E_WARNING: is_dir(): open_basedir restriction in effect. File(/usr/local/cpanel) is not within the allowed path(s): (/var/www/vhosts/kasalongrice.com/:/tmp/) (line 419, wp-content/plugins/updraftplus/class-updraftplus.php)
+0001.568 (0) Total entities for the zip file: 2248 directories, 11794 files (0 skipped as non-modified), 175 MB
+0001.595 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0001.623 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0001.643 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0001.663 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0001.684 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0001.704 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0001.725 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0001.746 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0001.766 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0001.784 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.2 MB, 11794 files batched, 990 (990) added so far); re-opening (prior size: 0 KB)
+0003.038 (0) A useful amount of data was added after this amount of zip processing: 3.7 s (normalised: 3.7 s, rate: 6928.8 KB/s)
+0003.039 (0) Performance is good - will increase the amount of data we attempt to batch (time=3.7170600891113, normalised_time=3.6947337460135, max_time=3.0379951000214, data points known=1, old_max_bytes=26214400, new_max_bytes=42570428)
+0003.050 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 1000 files added (on-disk size: 5390.9 KB)
+0003.072 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 1100 files added (on-disk size: 5390.9 KB)
+0003.094 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 1200 files added (on-disk size: 5390.9 KB)
+0003.116 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 1300 files added (on-disk size: 5390.9 KB)
+0003.139 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 1400 files added (on-disk size: 5390.9 KB)
+0003.164 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 1500 files added (on-disk size: 5390.9 KB)
+0003.188 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 1600 files added (on-disk size: 5390.9 KB)
+0003.211 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 1700 files added (on-disk size: 5390.9 KB)
+0003.235 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 1800 files added (on-disk size: 5390.9 KB)
+0003.259 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 1900 files added (on-disk size: 5390.9 KB)
+0003.280 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (6.3 MB, 11794 files batched, 1001 (1991) added so far); re-opening (prior size: 5390.9 KB)
+0003.693 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 2000 files added (on-disk size: 7239.6 KB)
+0003.718 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 2100 files added (on-disk size: 7239.6 KB)
+0003.742 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 2200 files added (on-disk size: 7239.6 KB)
+0003.764 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 2300 files added (on-disk size: 7239.6 KB)
+0003.783 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 2400 files added (on-disk size: 7239.6 KB)
+0003.802 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 2500 files added (on-disk size: 7239.6 KB)
+0003.820 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 2600 files added (on-disk size: 7239.6 KB)
+0003.842 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 2700 files added (on-disk size: 7239.6 KB)
+0003.865 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 2800 files added (on-disk size: 7239.6 KB)
+0003.884 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 2900 files added (on-disk size: 7239.6 KB)
+0003.902 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (11.4 MB, 11794 files batched, 1001 (2992) added so far); re-opening (prior size: 7239.6 KB)
+0005.268 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 3000 files added (on-disk size: 10898.5 KB)
+0005.305 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 3100 files added (on-disk size: 10898.5 KB)
+0005.326 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 3200 files added (on-disk size: 10898.5 KB)
+0005.349 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 3300 files added (on-disk size: 10898.5 KB)
+0005.371 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 3400 files added (on-disk size: 10898.5 KB)
+0005.391 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 3500 files added (on-disk size: 10898.5 KB)
+0005.411 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 3600 files added (on-disk size: 10898.5 KB)
+0005.430 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 3700 files added (on-disk size: 10898.5 KB)
+0005.449 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 3800 files added (on-disk size: 10898.5 KB)
+0005.473 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 3900 files added (on-disk size: 10898.5 KB)
+0005.507 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (5.4 MB, 11794 files batched, 1001 (3993) added so far); re-opening (prior size: 10898.5 KB)
+0005.825 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 4000 files added (on-disk size: 13005.4 KB)
+0005.854 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 4100 files added (on-disk size: 13005.4 KB)
+0005.884 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 4200 files added (on-disk size: 13005.4 KB)
+0005.917 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 4300 files added (on-disk size: 13005.4 KB)
+0005.951 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 4400 files added (on-disk size: 13005.4 KB)
+0005.987 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 4500 files added (on-disk size: 13005.4 KB)
+0006.022 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 4600 files added (on-disk size: 13005.4 KB)
+0006.055 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 4700 files added (on-disk size: 13005.4 KB)
+0006.082 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 4800 files added (on-disk size: 13005.4 KB)
+0006.110 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 4900 files added (on-disk size: 13005.4 KB)
+0006.136 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (7 MB, 11794 files batched, 1001 (4994) added so far); re-opening (prior size: 13005.4 KB)
+0006.665 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 5000 files added (on-disk size: 15036.5 KB)
+0006.690 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 5100 files added (on-disk size: 15036.5 KB)
+0006.715 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 5200 files added (on-disk size: 15036.5 KB)
+0006.738 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 5300 files added (on-disk size: 15036.5 KB)
+0006.763 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 5400 files added (on-disk size: 15036.5 KB)
+0006.785 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 5500 files added (on-disk size: 15036.5 KB)
+0006.809 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 5600 files added (on-disk size: 15036.5 KB)
+0006.832 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 5700 files added (on-disk size: 15036.5 KB)
+0006.855 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 5800 files added (on-disk size: 15036.5 KB)
+0006.877 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 5900 files added (on-disk size: 15036.5 KB)
+0006.897 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (36.5 MB, 11794 files batched, 1001 (5995) added so far); re-opening (prior size: 15036.5 KB)
+0008.761 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 6000 files added (on-disk size: 24626 KB)
+0008.778 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 6100 files added (on-disk size: 24626 KB)
+0008.795 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 6200 files added (on-disk size: 24626 KB)
+0008.813 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 6300 files added (on-disk size: 24626 KB)
+0008.831 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 6400 files added (on-disk size: 24626 KB)
+0008.849 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 6500 files added (on-disk size: 24626 KB)
+0008.867 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 6600 files added (on-disk size: 24626 KB)
+0008.894 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 6700 files added (on-disk size: 24626 KB)
+0008.921 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 6800 files added (on-disk size: 24626 KB)
+0008.943 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 6900 files added (on-disk size: 24626 KB)
+0008.964 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (18.2 MB, 11794 files batched, 1001 (6996) added so far); re-opening (prior size: 24626 KB)
+0010.420 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 7000 files added (on-disk size: 30400.1 KB)
+0010.445 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 7100 files added (on-disk size: 30400.1 KB)
+0010.472 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 7200 files added (on-disk size: 30400.1 KB)
+0010.499 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 7300 files added (on-disk size: 30400.1 KB)
+0010.522 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 7400 files added (on-disk size: 30400.1 KB)
+0010.542 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 7500 files added (on-disk size: 30400.1 KB)
+0010.562 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 7600 files added (on-disk size: 30400.1 KB)
+0010.585 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 7700 files added (on-disk size: 30400.1 KB)
+0010.609 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 7800 files added (on-disk size: 30400.1 KB)
+0010.631 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 7900 files added (on-disk size: 30400.1 KB)
+0010.654 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (13.9 MB, 11794 files batched, 1001 (7997) added so far); re-opening (prior size: 30400.1 KB)
+0011.352 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 8000 files added (on-disk size: 36044.4 KB)
+0011.376 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 8100 files added (on-disk size: 36044.4 KB)
+0011.400 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 8200 files added (on-disk size: 36044.4 KB)
+0011.424 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 8300 files added (on-disk size: 36044.4 KB)
+0011.448 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 8400 files added (on-disk size: 36044.4 KB)
+0011.483 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 8500 files added (on-disk size: 36044.4 KB)
+0011.529 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 8600 files added (on-disk size: 36044.4 KB)
+0011.571 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 8700 files added (on-disk size: 36044.4 KB)
+0011.610 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 8800 files added (on-disk size: 36044.4 KB)
+0011.650 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 8900 files added (on-disk size: 36044.4 KB)
+0011.688 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (22.2 MB, 11794 files batched, 1001 (8998) added so far); re-opening (prior size: 36044.4 KB)
+0012.332 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 9000 files added (on-disk size: 54285.2 KB)
+0012.358 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 9100 files added (on-disk size: 54285.2 KB)
+0012.385 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 9200 files added (on-disk size: 54285.2 KB)
+0012.404 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 9300 files added (on-disk size: 54285.2 KB)
+0012.424 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 9400 files added (on-disk size: 54285.2 KB)
+0012.444 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 9500 files added (on-disk size: 54285.2 KB)
+0012.465 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 9600 files added (on-disk size: 54285.2 KB)
+0012.484 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 9700 files added (on-disk size: 54285.2 KB)
+0012.505 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 9800 files added (on-disk size: 54285.2 KB)
+0012.523 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 9900 files added (on-disk size: 54285.2 KB)
+0012.543 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (9.4 MB, 11794 files batched, 1001 (9999) added so far); re-opening (prior size: 54285.2 KB)
+0013.100 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 10000 files added (on-disk size: 57201.6 KB)
+0013.120 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 10100 files added (on-disk size: 57201.6 KB)
+0013.140 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 10200 files added (on-disk size: 57201.6 KB)
+0013.160 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 10300 files added (on-disk size: 57201.6 KB)
+0013.181 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 10400 files added (on-disk size: 57201.6 KB)
+0013.201 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 10500 files added (on-disk size: 57201.6 KB)
+0013.219 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 10600 files added (on-disk size: 57201.6 KB)
+0013.239 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 10700 files added (on-disk size: 57201.6 KB)
+0013.260 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 10800 files added (on-disk size: 57201.6 KB)
+0013.282 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 10900 files added (on-disk size: 57201.6 KB)
+0013.304 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (14.3 MB, 11794 files batched, 1001 (11000) added so far); re-opening (prior size: 57201.6 KB)
+0013.978 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 11000 files added (on-disk size: 62785 KB)
+0014.028 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 11100 files added (on-disk size: 62785 KB)
+0014.049 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 11200 files added (on-disk size: 62785 KB)
+0014.069 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 11300 files added (on-disk size: 62785 KB)
+0014.087 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 11400 files added (on-disk size: 62785 KB)
+0014.109 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 11500 files added (on-disk size: 62785 KB)
+0014.129 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 11600 files added (on-disk size: 62785 KB)
+0014.148 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.tmp: 11700 files added (on-disk size: 62785 KB)
+0014.568 (0) Creating zip file manifest (backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.list-temp.tmp)
+0014.591 (0) Successfully created zip file manifest (size: 1001015)
+0015.139 (0) Created plugins zip (0) - 65123.5 KB in 15.1 s (4309.9 KB/s) (sha1: f4e67c2b8f95321a1e3a06b3df493d71d0ddca17, sha256: 2a623273f6b8613a8cabb11f8fc02ae9a746d9fa27bf9e8e99ba998024d0916c)
+0015.148 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0015.149 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-0b93e0bd1a97d9e3ae2f35c40e607ed4)
+0016.736 (0) Google Drive: quota usage: used=8892.9 MB, total=15360 MB, available=6467.1 MB
+0016.737 (0) Google Drive: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip: Attempting to upload to Google Drive (into folder id: 1EfVUz6npql9xo0iOD-fM6lVOJB5Nlvbr)
+0017.977 (0) Googledrive chunked upload: 1.6 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 13.3 / 18)
+0018.413 (0) Googledrive chunked upload: 4.7 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 13.3 / 18)
+0018.828 (0) Googledrive chunked upload: 11 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 13.3 / 18)
+0019.553 (0) Googledrive chunked upload: 23.6 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 13.3 / 18)
+0020.414 (0) Googledrive chunked upload: 48.7 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 13.3 / 18)
+0022.210 (0) Googledrive chunked upload: 99.1 % uploaded (66060288 - increasing chunk size to 65536 KB - memory usage: 13.3 / 18)
+0024.073 (0) Googledrive chunked upload: 100 % uploaded (66060288)
+0024.077 (0) Google Drive: OK: Archive backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip uploaded in 7.34 seconds
+0024.078 (0) Recording as successfully uploaded: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip
+0024.104 (0) Deleting local file: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip: OK
+0024.111 (0) Beginning creation of dump of themes (split every: 400 MB)
+0024.114 (0) PHP event: code E_WARNING: is_dir(): open_basedir restriction in effect. File(/usr/local/cpanel) is not within the allowed path(s): (/var/www/vhosts/kasalongrice.com/:/tmp/) (line 419, wp-content/plugins/updraftplus/class-updraftplus.php)
+0024.181 (0) Total entities for the zip file: 47 directories, 340 files (0 skipped as non-modified), 12.4 MB
+0024.206 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0024.231 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0024.256 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0024.810 (0) Creating zip file manifest (backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-themes.zip.list-temp.tmp)
+0024.811 (0) Successfully created zip file manifest (size: 23516)
+0024.938 (0) Created themes zip (0) - 11292.2 KB in 0.8 s (13736.2 KB/s) (sha1: dcb1b9ecb15ada7d7ef694f6060dcc2932566d1c, sha256: b03b3badafd31ef9a307fd2803eb1d2c44b546b91672a392604e5fda0f3d7edd)
+0024.941 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0024.942 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-0b93e0bd1a97d9e3ae2f35c40e607ed4)
+0025.410 (0) Google Drive: quota usage: used=8956.5 MB, total=15360 MB, available=6403.5 MB
+0025.411 (0) Google Drive: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-themes.zip: Attempting to upload to Google Drive (into folder id: 1EfVUz6npql9xo0iOD-fM6lVOJB5Nlvbr)
+0026.546 (0) Googledrive chunked upload: 9.1 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 11.6 / 16)
+0026.956 (0) Googledrive chunked upload: 27.2 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 11.6 / 16)
+0027.387 (0) Googledrive chunked upload: 63.5 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 11.6 / 16)
+0029.026 (0) Googledrive chunked upload: 100 % uploaded (7340032)
+0029.030 (0) Google Drive: OK: Archive backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-themes.zip uploaded in 3.62 seconds
+0029.031 (0) Recording as successfully uploaded: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-themes.zip
+0029.037 (0) Deleting local file: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-themes.zip: OK
+0029.042 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0029.043 (0) Looking for candidates to backup in: /var/www/vhosts/kasalongrice.com/httpdocs/wp-content/uploads
+0029.044 (0) finding files: rttpg: adding to list (1)
+0029.045 (0) finding files: elementor: adding to list (2)
+0029.046 (0) finding files: 2024: adding to list (3)
+0029.047 (0) finding files: backup: skipping: excluded by options (glob)
+0029.048 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0029.051 (0) PHP event: code E_WARNING: is_dir(): open_basedir restriction in effect. File(/usr/local/cpanel) is not within the allowed path(s): (/var/www/vhosts/kasalongrice.com/:/tmp/) (line 419, wp-content/plugins/updraftplus/class-updraftplus.php)
+0029.116 (0) Total entities for the zip file: 7 directories, 408 files (0 skipped as non-modified), 356.1 MB
+0029.128 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 40.6 MB added on this batch (40.6 MB, 408 files batched, 48 (48) added so far); re-opening (prior size: 0 KB)
+0029.666 (0) A useful amount of data was added after this amount of zip processing: 1.3 s (normalised: 1.3 s, rate: 30920 KB/s)
+0029.668 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.3457911014557, normalised_time=1.3445260847339, max_time=29.666733980179, data points known=1, old_max_bytes=42570428, new_max_bytes=209715200)
+0029.682 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-uploads.zip.tmp: 100 files added (on-disk size: 41225.5 KB)
+0029.705 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-uploads.zip.tmp: 200 files added (on-disk size: 41225.5 KB)
+0029.727 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 200 MB added on this batch (210 MB, 408 files batched, 245 (293) added so far); re-opening (prior size: 41225.5 KB)
+0031.595 (0) A useful amount of data was added after this amount of zip processing: 2.3 s (normalised: 2.2 s, rate: 94545.8 KB/s)
+0031.596 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=2.2745521068573, normalised_time=2.1661460587805, max_time=31.59543800354, data points known=1, max_bytes=209715200)
+0031.599 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-uploads.zip.tmp: 300 files added (on-disk size: 255714.8 KB)
+0031.617 (0) Zip: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-uploads.zip.tmp: 400 files added (on-disk size: 255714.8 KB)
+0032.630 (0) Creating zip file manifest (backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-uploads.zip.list-temp.tmp)
+0032.632 (0) Successfully created zip file manifest (size: 25729)
+0035.597 (0) Created uploads zip (0) - 363668.3 KB in 6.5 s (55570.5 KB/s) (sha1: b8a08d3533d0e36a2071d81feb406d215582b748, sha256: 3dc945e815224d3ebac9ac5fe3ea52ff2b5137d1587523a00ca028778108f69f)
+0035.600 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0035.600 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-0b93e0bd1a97d9e3ae2f35c40e607ed4)
+0036.101 (0) Google Drive: quota usage: used=8967.6 MB, total=15360 MB, available=6392.4 MB
+0036.102 (0) Google Drive: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-uploads.zip: Attempting to upload to Google Drive (into folder id: 1EfVUz6npql9xo0iOD-fM6lVOJB5Nlvbr)
+0037.265 (0) Googledrive chunked upload: 0.3 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 11.6 / 16)
+0037.654 (0) Googledrive chunked upload: 0.8 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 11.6 / 16)
+0038.060 (0) Googledrive chunked upload: 2 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 11.6 / 16)
+0038.763 (0) Googledrive chunked upload: 4.2 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 11.6 / 16)
+0039.531 (0) Googledrive chunked upload: 8.7 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 11.6 / 16)
+0041.003 (0) Googledrive chunked upload: 17.7 % uploaded (66060288 - increasing chunk size to 65536 KB - memory usage: 11.6 / 16)
+0044.477 (0) Googledrive chunked upload: 35.8 % uploaded (133169152)
+0047.493 (0) Googledrive chunked upload: 53.8 % uploaded (200278016)
+0050.540 (0) Googledrive chunked upload: 71.8 % uploaded (267386880)
+0053.540 (0) Googledrive chunked upload: 89.8 % uploaded (334495744)
+0056.526 (0) Googledrive chunked upload: 100 % uploaded (334495744)
+0056.529 (0) Google Drive: OK: Archive backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-uploads.zip uploaded in 20.43 seconds
+0056.529 (0) Recording as successfully uploaded: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-uploads.zip
+0056.600 (0) Deleting local file: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-uploads.zip: OK
+0056.602 (0) No backup of mu-plugins: excluded by user's options
+0056.604 (0) Beginning backup of other directories found in the content directory (index: 0)
+0056.604 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0056.605 (0) Looking for candidates to backup in: /var/www/vhosts/kasalongrice.com/httpdocs/wp-content
+0056.606 (0) finding files: updraft: skipping: this is the updraft directory
+0056.606 (0) finding files: upgrade: skipping: excluded by options
+0056.607 (0) finding files: wpvivid_uploads: adding to list (1)
+0056.608 (0) finding files: themes: skipping: this is the themes directory
+0056.608 (0) finding files: languages: adding to list (2)
+0056.609 (0) finding files: index.php: adding to list (3)
+0056.609 (0) finding files: plugins: skipping: this is the plugins directory
+0056.611 (0) finding files: object-cache.php: adding to list (4)
+0056.612 (0) finding files: wpvivid_staging: adding to list (5)
+0056.612 (0) finding files: uploads: skipping: this is the uploads directory
+0056.613 (0) finding files: bcf-fonts: adding to list (6)
+0056.614 (0) finding files: upgrade-temp-backup: adding to list (7)
+0056.615 (0) finding files: wpvividbackups: skipping: excluded by options (glob)
+0056.630 (0) PHP event: code E_WARNING: is_dir(): open_basedir restriction in effect. File(/usr/local/cpanel) is not within the allowed path(s): (/var/www/vhosts/kasalongrice.com/:/tmp/) (line 419, wp-content/plugins/updraftplus/class-updraftplus.php)
+0056.643 (0) Total entities for the zip file: 10 directories, 82 files (0 skipped as non-modified), 3.5 MB
+0057.175 (0) Creating zip file manifest (backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-others.zip.list-temp.tmp)
+0057.176 (0) Successfully created zip file manifest (size: 4841)
+0057.189 (0) Created others zip (0) - 905.4 KB in 0.6 s (1626.8 KB/s) (sha1: e71e4044bab63fe41a04004b4d06b35593607e96, sha256: 8838161d310be6080b82897f0c9903366aac9220091f8d7216f59dd5c490f344)
+0057.192 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0057.193 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-0b93e0bd1a97d9e3ae2f35c40e607ed4)
+0057.735 (0) Google Drive: quota usage: used=9322.7 MB, total=15360 MB, available=6037.3 MB
+0057.736 (0) Google Drive: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-others.zip: Attempting to upload to Google Drive (into folder id: 1EfVUz6npql9xo0iOD-fM6lVOJB5Nlvbr)
+0060.086 (0) Googledrive chunked upload: 100 % uploaded
+0060.090 (0) Google Drive: OK: Archive backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-others.zip uploaded in 2.35 seconds
+0060.091 (0) Recording as successfully uploaded: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-others.zip
+0060.094 (0) Deleting local file: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-others.zip: OK
+0060.102 (0) Saving backup status to database (elements: 8)
+0060.105 (0) Beginning creation of database dump (WordPress DB)
+0060.107 (0) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0060.109 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/usr/bin/mysqldump) is not within the allowed path(s): (/var/www/vhosts/kasalongrice.com/:/tmp/) (line 1694, wp-content/plugins/updraftplus/class-updraftplus.php)
+0060.110 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/bin/mysqldump) is not within the allowed path(s): (/var/www/vhosts/kasalongrice.com/:/tmp/) (line 1694, wp-content/plugins/updraftplus/class-updraftplus.php)
+0060.111 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/usr/local/bin/mysqldump) is not within the allowed path(s): (/var/www/vhosts/kasalongrice.com/:/tmp/) (line 1694, wp-content/plugins/updraftplus/class-updraftplus.php)
+0060.112 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/usr/sfw/bin/mysqldump) is not within the allowed path(s): (/var/www/vhosts/kasalongrice.com/:/tmp/) (line 1694, wp-content/plugins/updraftplus/class-updraftplus.php)
+0060.113 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/usr/xdg4/bin/mysqldump) is not within the allowed path(s): (/var/www/vhosts/kasalongrice.com/:/tmp/) (line 1694, wp-content/plugins/updraftplus/class-updraftplus.php)
+0060.114 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/opt/bin/mysqldump) is not within the allowed path(s): (/var/www/vhosts/kasalongrice.com/:/tmp/) (line 1694, wp-content/plugins/updraftplus/class-updraftplus.php)
+0060.129 (0) Table yEAjQf_options: Total expected rows (via COUNT): 666
+0060.189 (0) Table yEAjQf_options: Rows added in this batch (next record: 11776): 655 (uncompressed bytes in this segment=1305824) in 0.07 seconds
+0060.194 (0) Table yEAjQf_options: finishing file(s) (2, 155.6 KB)
+0060.199 (0) Table yEAjQf_users: Total expected rows (via COUNT): 1
+0060.199 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0060.202 (0) Table yEAjQf_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1224) in 0.00 seconds
+0060.206 (0) Table yEAjQf_users: finishing file(s) (2, 0.6 KB)
+0060.212 (0) Table yEAjQf_usermeta: Total expected rows (via COUNT): 80
+0060.212 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0060.217 (0) Table yEAjQf_usermeta: Rows added in this batch (next record: 98): 80 (uncompressed bytes in this segment=91952) in 0.01 seconds
+0060.223 (0) Table yEAjQf_usermeta: finishing file(s) (2, 11.3 KB)
+0060.228 (0) Table yEAjQf_actionscheduler_actions: Total expected rows (via COUNT): 41
+0060.229 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0060.233 (0) Table yEAjQf_actionscheduler_actions: Rows added in this batch (next record: 63): 41 (uncompressed bytes in this segment=11599) in 0.01 seconds
+0060.238 (0) Table yEAjQf_actionscheduler_actions: finishing file(s) (2, 1.2 KB)
+0060.242 (0) Table yEAjQf_actionscheduler_claims: Total expected rows (via COUNT): 0
+0060.244 (0) Table yEAjQf_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=648) in 0.00 seconds
+0060.248 (0) Table yEAjQf_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0060.252 (0) Table yEAjQf_actionscheduler_groups: Total expected rows (via COUNT): 2
+0060.252 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0060.255 (0) Table yEAjQf_actionscheduler_groups: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=721) in 0.00 seconds
+0060.258 (0) Table yEAjQf_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0060.263 (0) Table yEAjQf_actionscheduler_logs: Total expected rows (via COUNT): 123
+0060.263 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0060.266 (0) Table yEAjQf_actionscheduler_logs: Rows added in this batch (next record: 123): 123 (uncompressed bytes in this segment=11112) in 0.01 seconds
+0060.270 (0) Table yEAjQf_actionscheduler_logs: finishing file(s) (2, 1.3 KB)
+0060.276 (0) Table yEAjQf_commentmeta: Total expected rows (via COUNT): 0
+0060.278 (0) Table yEAjQf_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=658) in 0.00 seconds
+0060.283 (0) Table yEAjQf_commentmeta: finishing file(s) (2, 0.4 KB)
+0060.287 (0) Table yEAjQf_comments: Total expected rows (via COUNT): 1
+0060.287 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0060.290 (0) Table yEAjQf_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1924) in 0.00 seconds
+0060.294 (0) Table yEAjQf_comments: finishing file(s) (2, 0.8 KB)
+0060.299 (0) Table yEAjQf_e_notes: Total expected rows (via COUNT): 0
+0060.301 (0) Table yEAjQf_e_notes: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1909) in 0.01 seconds
+0060.306 (0) Table yEAjQf_e_notes: finishing file(s) (2, 0.7 KB)
+0060.310 (0) Table yEAjQf_e_notes_users_relations: Total expected rows (via COUNT): 0
+0060.311 (0) Table yEAjQf_e_notes_users_relations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=876) in 0.00 seconds
+0060.315 (0) Table yEAjQf_e_notes_users_relations: finishing file(s) (2, 0.4 KB)
+0060.321 (0) Table yEAjQf_imagify_files: Total expected rows (via COUNT): 0
+0060.322 (0) Table yEAjQf_imagify_files: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1357) in 0.00 seconds
+0060.327 (0) Table yEAjQf_imagify_files: finishing file(s) (2, 0.6 KB)
+0060.331 (0) Table yEAjQf_imagify_folders: Total expected rows (via COUNT): 0
+0060.332 (0) Table yEAjQf_imagify_folders: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=633) in 0.00 seconds
+0060.335 (0) Table yEAjQf_imagify_folders: finishing file(s) (2, 0.4 KB)
+0060.339 (0) Table yEAjQf_links: Total expected rows (via COUNT): 0
+0060.340 (0) Table yEAjQf_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1051) in 0.00 seconds
+0060.344 (0) Table yEAjQf_links: finishing file(s) (2, 0.5 KB)
+0060.362 (0) Table yEAjQf_postmeta: Total expected rows (approximate): 7696
+0060.831 (0) Table yEAjQf_postmeta: Rows added in this batch (next record: 8419): 6537 (uncompressed bytes in this segment=15621199) in 0.48 seconds
+0060.836 (0) Table yEAjQf_postmeta: finishing file(s) (2, 3860.7 KB)
+0060.845 (0) Table yEAjQf_posts: Total expected rows (via COUNT): 906
+0060.934 (0) Table yEAjQf_posts: Rows added in this batch (next record: 1000): 906 (uncompressed bytes in this segment=5294291) in 0.10 seconds
+0060.939 (0) Table yEAjQf_posts: finishing file(s) (2, 227.2 KB)
+0060.943 (0) Table yEAjQf_term_relationships: Total expected rows (approximate): 228
+0060.946 (0) Table yEAjQf_term_relationships: Rows added in this batch (next record: 100000): 228 (uncompressed bytes in this segment=3896) in 0.00 seconds
+0060.949 (0) Table yEAjQf_term_relationships: finishing file(s) (2, 1 KB)
+0060.954 (0) Table yEAjQf_term_taxonomy: Total expected rows (via COUNT): 25
+0060.955 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0060.957 (0) Table yEAjQf_term_taxonomy: Rows added in this batch (next record: 26): 25 (uncompressed bytes in this segment=2334) in 0.01 seconds
+0060.960 (0) Table yEAjQf_term_taxonomy: finishing file(s) (2, 0.8 KB)
+0060.967 (0) Table yEAjQf_termmeta: Total expected rows (via COUNT): 2
+0060.968 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0060.971 (0) Table yEAjQf_termmeta: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=8254) in 0.01 seconds
+0060.977 (0) Table yEAjQf_termmeta: finishing file(s) (2, 1.6 KB)
+0060.982 (0) Table yEAjQf_terms: Total expected rows (via COUNT): 25
+0060.983 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0060.986 (0) Table yEAjQf_terms: Rows added in this batch (next record: 26): 25 (uncompressed bytes in this segment=1677) in 0.01 seconds
+0060.991 (0) Table yEAjQf_terms: finishing file(s) (2, 0.7 KB)
+0060.995 (0) Table yEAjQf_e_events: Total expected rows (via COUNT): 0
+0060.998 (0) Table yEAjQf_e_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=535) in 0.00 seconds
+0061.003 (0) Table yEAjQf_e_events: finishing file(s) (2, 0.4 KB)
+0061.008 (0) Table yEAjQf_e_submissions: Total expected rows (via COUNT): 1
+0061.009 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0061.012 (0) Table yEAjQf_e_submissions: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2504) in 0.01 seconds
+0061.017 (0) Table yEAjQf_e_submissions: finishing file(s) (2, 1 KB)
+0061.022 (0) Table yEAjQf_e_submissions_actions_log: Total expected rows (via COUNT): 1
+0061.023 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0061.025 (0) Table yEAjQf_e_submissions_actions_log: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1371) in 0.00 seconds
+0061.030 (0) Table yEAjQf_e_submissions_actions_log: finishing file(s) (2, 0.5 KB)
+0061.036 (0) Table yEAjQf_e_submissions_values: Total expected rows (via COUNT): 5
+0061.037 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0061.039 (0) Table yEAjQf_e_submissions_values: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=980) in 0.01 seconds
+0061.045 (0) Table yEAjQf_e_submissions_values: finishing file(s) (2, 0.5 KB)
+0061.052 (0) Table yEAjQf_jetpack_sync_queue: Total expected rows (via COUNT): 0
+0061.054 (0) Table yEAjQf_jetpack_sync_queue: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=813) in 0.01 seconds
+0061.060 (0) Table yEAjQf_jetpack_sync_queue: finishing file(s) (2, 0.4 KB)
+0061.067 (0) Table yEAjQf_mainwp_wpvivid: Total expected rows (via COUNT): 0
+0061.068 (0) Table yEAjQf_mainwp_wpvivid: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1270) in 0.00 seconds
+0061.075 (0) Table yEAjQf_mainwp_wpvivid: finishing file(s) (2, 0.4 KB)
+0061.082 (0) Table yEAjQf_mainwp_wpvivid_global: Total expected rows (via COUNT): 0
+0061.083 (0) Table yEAjQf_mainwp_wpvivid_global: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1018) in 0.01 seconds
+0061.089 (0) Table yEAjQf_mainwp_wpvivid_global: finishing file(s) (2, 0.4 KB)
+0061.096 (0) Table yEAjQf_mainwp_wpvivid_global_options: Total expected rows (via COUNT): 1
+0061.097 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0061.100 (0) Table yEAjQf_mainwp_wpvivid_global_options: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=760) in 0.01 seconds
+0061.106 (0) Table yEAjQf_mainwp_wpvivid_global_options: finishing file(s) (2, 0.4 KB)
+0061.120 (0) Table yEAjQf_mainwp_wpvividmeta: Total expected rows (via COUNT): 0
+0061.122 (0) Table yEAjQf_mainwp_wpvividmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=619) in 0.01 seconds
+0061.130 (0) Table yEAjQf_mainwp_wpvividmeta: finishing file(s) (2, 0.4 KB)
+0061.138 (0) Table yEAjQf_yoast_indexable: Total expected rows (via COUNT): 40
+0061.139 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0061.145 (0) Table yEAjQf_yoast_indexable: Rows added in this batch (next record: 40): 40 (uncompressed bytes in this segment=29403) in 0.01 seconds
+0061.151 (0) Table yEAjQf_yoast_indexable: finishing file(s) (2, 5.4 KB)
+0061.156 (0) Table yEAjQf_yoast_indexable_hierarchy: Total expected rows (approximate): 39
+0061.159 (0) Table yEAjQf_yoast_indexable_hierarchy: Rows added in this batch (next record: 1000): 39 (uncompressed bytes in this segment=1443) in 0.00 seconds
+0061.164 (0) Table yEAjQf_yoast_indexable_hierarchy: finishing file(s) (2, 0.5 KB)
+0061.168 (0) Table yEAjQf_yoast_migrations: Total expected rows (via COUNT): 24
+0061.169 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0061.173 (0) Table yEAjQf_yoast_migrations: Rows added in this batch (next record: 24): 24 (uncompressed bytes in this segment=1270) in 0.01 seconds
+0061.177 (0) Table yEAjQf_yoast_migrations: finishing file(s) (2, 0.6 KB)
+0061.182 (0) Table yEAjQf_yoast_primary_term: Total expected rows (via COUNT): 8
+0061.183 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0061.185 (0) Table yEAjQf_yoast_primary_term: Rows added in this batch (next record: 8): 8 (uncompressed bytes in this segment=1522) in 0.00 seconds
+0061.190 (0) Table yEAjQf_yoast_primary_term: finishing file(s) (2, 0.6 KB)
+0061.195 (0) Table yEAjQf_yoast_seo_links: Total expected rows (via COUNT): 198
+0061.196 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0061.202 (0) Table yEAjQf_yoast_seo_links: Rows added in this batch (next record: 661): 198 (uncompressed bytes in this segment=31833) in 0.01 seconds
+0061.207 (0) Table yEAjQf_yoast_seo_links: finishing file(s) (2, 3.4 KB)
+0061.208 (0) PHP event: code E_WARNING: filemtime(): stat failed for /var/www/vhosts/kasalongrice.com/httpdocs/wp-content/updraft/backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db.gz (line 1925, wp-content/plugins/updraftplus/backup.php)
+0061.210 (0) backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db-table-yEAjQf_options.table.tmpr11777.gz (1/34/fopen): adding to final database dump
+0061.214 (0) backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db-table-yEAjQf_options.table.gz (2/34/fopen): adding to final database dump
+0061.215 (0) backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db-table-yEAjQf_users.table.tmpr2.gz (3/34/fopen): adding to final database dump
+0061.216 (0) backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db-table-yEAjQf_users.table.gz (4/34/fopen): adding to final database dump
+0061.217 (0) backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db-table-yEAjQf_usermeta.table.tmpr99.gz (5/34/fopen): adding to final database dump
+0061.219 (0) backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db-table-yEAjQf_usermeta.table.gz (6/34/fopen): adding to final database dump
+0061.220 (0) backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db-table-yEAjQf_actionscheduler_actions.table.tmpr64.gz (7/34/fopen): adding to final database dump
+0061.221 (0) backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db-table-yEAjQf_actionscheduler_actions.table.gz (8/34/fopen): adding to final database dump
+0061.222 (0) backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db-table-yEAjQf_actionscheduler_claims.table.tmpr0.gz (9/34/fopen): adding to final database dump
+0061.223 (0) backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db-table-yEAjQf_actionscheduler_claims.table.gz (10/34/fopen): adding to final database dump
+0061.224 (0) backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db-table-yEAjQf_actionscheduler_groups.table.tmpr3.gz (11/34/fopen): adding to final database dump
+0061.225 (0) backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db-table-yEAjQf_actionscheduler_groups.table.gz (12/34/fopen): adding to final database dump
+0061.226 (0) backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db-table-yEAjQf_actionscheduler_logs.table.tmpr124.gz (13/34/fopen): adding to final database dump
+0061.227 (0) backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db-table-yEAjQf_actionscheduler_logs.table.gz (14/34/fopen): adding to final database dump
+0061.228 (0) backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db-table-yEAjQf_commentmeta.table.tmpr0.gz (15/34/fopen): adding to final database dump
+0061.229 (0) backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db-table-yEAjQf_commentmeta.table.gz (16/34/fopen): adding to final database dump
+0061.230 (0) backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db-table-yEAjQf_comments.table.tmpr2.gz (17/34/fopen): adding to final database dump
+0061.231 (0) backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db-table-yEAjQf_comments.table.gz (18/34/fopen): adding to final database dump
+0061.232 (0) backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db-table-yEAjQf_e_notes.table.tmpr0.gz (19/34/fopen): adding to final database dump
+0061.233 (0) backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db-table-yEAjQf_e_notes.table.gz (20/34/fopen): adding to final database dump
+0061.233 (0) backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db-table-yEAjQf_e_notes_users_relations.table.tmpr0.gz (21/34/fopen): adding to final database dump
+0061.234 (0) backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db-table-yEAjQf_e_notes_users_relations.table.gz (22/34/fopen): adding to final database dump
+0061.235 (0) backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db-table-yEAjQf_imagify_files.table.tmpr0.gz (23/34/fopen): adding to final database dump
+0061.236 (0) backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db-table-yEAjQf_imagify_files.table.gz (24/34/fopen): adding to final database dump
+0061.237 (0) backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db-table-yEAjQf_imagify_folders.table.tmpr0.gz (25/34/fopen): adding to final database dump
+0061.239 (0) backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db-table-yEAjQf_imagify_folders.table.gz (26/34/fopen): adding to final database dump
+0061.239 (0) backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db-table-yEAjQf_links.table.tmpr0.gz (27/34/fopen): adding to final database dump
+0061.241 (0) backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db-table-yEAjQf_links.table.gz (28/34/fopen): adding to final database dump
+0061.242 (0) backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db-table-yEAjQf_postmeta.table.tmpr8420.gz (29/34/fopen): adding to final database dump
+0061.299 (0) backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db-table-yEAjQf_postmeta.table.gz (30/34/fopen): adding to final database dump
+0061.300 (0) backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db-table-yEAjQf_posts.table.tmpr1001.gz (31/34/fopen): adding to final database dump
+0061.303 (0) backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db-table-yEAjQf_posts.table.gz (32/34/fopen): adding to final database dump
+0061.303 (0) backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db-table-yEAjQf_term_relationships.table.tmpr100001.gz (33/34/fopen): adding to final database dump
+0061.304 (0) backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db-table-yEAjQf_term_relationships.table.gz (34/34/fopen): adding to final database dump
+0061.305 (0) backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db-table-yEAjQf_term_taxonomy.table.tmpr27.gz (35/34/fopen): adding to final database dump
+0061.306 (0) backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db-table-yEAjQf_term_taxonomy.table.gz (36/34/fopen): adding to final database dump
+0061.306 (0) backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db-table-yEAjQf_termmeta.table.tmpr3.gz (37/34/fopen): adding to final database dump
+0061.307 (0) backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db-table-yEAjQf_termmeta.table.gz (38/34/fopen): adding to final database dump
+0061.307 (0) backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db-table-yEAjQf_terms.table.tmpr27.gz (39/34/fopen): adding to final database dump
+0061.308 (0) backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db-table-yEAjQf_terms.table.gz (40/34/fopen): adding to final database dump
+0061.309 (0) backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db-table-yEAjQf_e_events.table.tmpr0.gz (41/34/fopen): adding to final database dump
+0061.310 (0) backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db-table-yEAjQf_e_events.table.gz (42/34/fopen): adding to final database dump
+0061.310 (0) backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db-table-yEAjQf_e_submissions.table.tmpr2.gz (43/34/fopen): adding to final database dump
+0061.311 (0) backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db-table-yEAjQf_e_submissions.table.gz (44/34/fopen): adding to final database dump
+0061.312 (0) backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db-table-yEAjQf_e_submissions_actions_log.table.tmpr2.gz (45/34/fopen): adding to final database dump
+0061.312 (0) backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db-table-yEAjQf_e_submissions_actions_log.table.gz (46/34/fopen): adding to final database dump
+0061.313 (0) backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db-table-yEAjQf_e_submissions_values.table.tmpr6.gz (47/34/fopen): adding to final database dump
+0061.314 (0) backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db-table-yEAjQf_e_submissions_values.table.gz (48/34/fopen): adding to final database dump
+0061.314 (0) backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db-table-yEAjQf_jetpack_sync_queue.table.tmpr0.gz (49/34/fopen): adding to final database dump
+0061.315 (0) backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db-table-yEAjQf_jetpack_sync_queue.table.gz (50/34/fopen): adding to final database dump
+0061.316 (0) backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db-table-yEAjQf_mainwp_wpvivid.table.tmpr0.gz (51/34/fopen): adding to final database dump
+0061.317 (0) backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db-table-yEAjQf_mainwp_wpvivid.table.gz (52/34/fopen): adding to final database dump
+0061.317 (0) backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db-table-yEAjQf_mainwp_wpvivid_global.table.tmpr0.gz (53/34/fopen): adding to final database dump
+0061.318 (0) backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db-table-yEAjQf_mainwp_wpvivid_global.table.gz (54/34/fopen): adding to final database dump
+0061.319 (0) backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db-table-yEAjQf_mainwp_wpvivid_global_options.table.tmpr2.gz (55/34/fopen): adding to final database dump
+0061.320 (0) backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db-table-yEAjQf_mainwp_wpvivid_global_options.table.gz (56/34/fopen): adding to final database dump
+0061.320 (0) backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db-table-yEAjQf_mainwp_wpvividmeta.table.tmpr0.gz (57/34/fopen): adding to final database dump
+0061.321 (0) backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db-table-yEAjQf_mainwp_wpvividmeta.table.gz (58/34/fopen): adding to final database dump
+0061.322 (0) backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db-table-yEAjQf_yoast_indexable.table.tmpr41.gz (59/34/fopen): adding to final database dump
+0061.323 (0) backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db-table-yEAjQf_yoast_indexable.table.gz (60/34/fopen): adding to final database dump
+0061.323 (0) backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db-table-yEAjQf_yoast_indexable_hierarchy.table.tmpr1001.gz (61/34/fopen): adding to final database dump
+0061.324 (0) backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db-table-yEAjQf_yoast_indexable_hierarchy.table.gz (62/34/fopen): adding to final database dump
+0061.325 (0) backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db-table-yEAjQf_yoast_migrations.table.tmpr25.gz (63/34/fopen): adding to final database dump
+0061.325 (0) backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db-table-yEAjQf_yoast_migrations.table.gz (64/34/fopen): adding to final database dump
+0061.326 (0) backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db-table-yEAjQf_yoast_primary_term.table.tmpr9.gz (65/34/fopen): adding to final database dump
+0061.327 (0) backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db-table-yEAjQf_yoast_primary_term.table.gz (66/34/fopen): adding to final database dump
+0061.327 (0) backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db-table-yEAjQf_yoast_seo_links.table.tmpr662.gz (67/34/fopen): adding to final database dump
+0061.328 (0) backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db-table-yEAjQf_yoast_seo_links.table.gz (68/34/fopen): adding to final database dump
+0061.332 (0) backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db.gz: finished writing out complete database file (4281.3 KB)
+0061.388 (0) Total database tables backed up: 34 (backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db.gz, size: 4384215, sha1: 353b6673c911de5dbf1f5e52c38f98d61b2367cd, sha256: 9e608058e068f4a896b3be5b170d3bb4c3a0ff4e5da3f13adfd2b6404c3328ec)
+0061.393 (0) backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip: plugins: This file has already been successfully uploaded
+0061.394 (0) backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-themes.zip: themes: This file has already been successfully uploaded
+0061.395 (0) backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-uploads.zip: uploads: This file has already been successfully uploaded
+0061.395 (0) backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-others.zip: others: This file has already been successfully uploaded
+0061.396 (0) backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db.gz: db: This file has not yet been successfully uploaded: will queue
+0061.397 (0) Saving backup history. Total backup size: 434.8 MB
+0061.399 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0061.401 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0061.402 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-0b93e0bd1a97d9e3ae2f35c40e607ed4)
+0061.901 (0) Google Drive: quota usage: used=9323.6 MB, total=15360 MB, available=6036.4 MB
+0061.902 (0) Google Drive: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db.gz: Attempting to upload to Google Drive (into folder id: 1EfVUz6npql9xo0iOD-fM6lVOJB5Nlvbr)
+0063.068 (0) Googledrive chunked upload: 23.9 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 11.6 / 42)
+0063.457 (0) Googledrive chunked upload: 71.8 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 11.7 / 42)
+0065.037 (0) Googledrive chunked upload: 100 % uploaded (3145728)
+0065.041 (0) Google Drive: OK: Archive backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db.gz uploaded in 3.14 seconds
+0065.042 (0) Recording as successfully uploaded: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db.gz
+0065.046 (0) Deleting local file: backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-db.gz: OK
+0065.049 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0065.051 (0) Number of backup sets in history: 2; groups (db): 1
+0065.052 (0) Examining (for databases) backup set with group_id=0, nonce=2c18ad48f07d, datestamp=1711664083 (Mar 28 2024 22:14:43)
+0065.053 (0) This backup set is the backup set just made, so will not be deleted.
+0065.053 (0) Examining (for databases) backup set with group_id=0, nonce=be3d79e169bf, datestamp=1711663388 (Mar 28 2024 22:03:08)
+0065.053 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0065.054 (0) Number of backup sets in history: 2; groups (files): 1
+0065.055 (0) Examining (for files) backup set with nonce=2c18ad48f07d, datestamp=1711664083 (Mar 28 2024 22:14:43)
+0065.055 (0) This backup set is the backup set just made, so will not be deleted.
+0065.056 (0) This backup set is the backup set just made, so will not be deleted.
+0065.056 (0) This backup set is the backup set just made, so will not be deleted.
+0065.056 (0) This backup set is the backup set just made, so will not be deleted.
+0065.056 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0065.057 (0) Examining (for files) backup set with nonce=be3d79e169bf, datestamp=1711663388 (Mar 28 2024 22:03:08)
+0065.057 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0065.057 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0065.060 (0) Resume backup (2c18ad48f07d, 0): finish run
+0065.062 (0) Decremented the semaphore (fd) by 1
+0065.064 (0) Semaphore (fd) unlocked
+0065.065 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0065.068 (0) Deleting zip manifest (backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-plugins.zip.list.tmp)
+0065.070 (0) Deleting zip manifest (backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-themes.zip.list.tmp)
+0065.071 (0) Deleting zip manifest (backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-uploads.zip.list.tmp)
+0065.072 (0) Deleting zip manifest (backup_2024-03-29-0514_Kasalong_Rice_2c18ad48f07d-others.zip.list.tmp)
+0065.073 (0) No email will/can be sent - the user has not configured an email address.
+0065.074 (0) The backup succeeded and is now complete
