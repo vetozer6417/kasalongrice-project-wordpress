@@ -31,5 +31,7 @@ by Tanusorn Deachaboonchana & Theerat Punyasit
 ## Completed Website
 [Kasalongrice.com](https://www.kasalongrice.com/)  
 ![Homepage Hero Banner with Navbar](/screenshots/screenshot-1.png)
+![Our Product page](/screenshots/screenshot-2.png)
+![Contact us page with google map display](/screenshots/screenshot-3.png)
 
 
