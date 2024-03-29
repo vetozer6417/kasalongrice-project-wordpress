@@ -30,6 +30,6 @@ by Tanusorn Deachaboonchana & Theerat Punyasit
 
 ## Completed Website
 [Kasalongrice.com](https://www.kasalongrice.com/)  
-![Homepage Hero Banner with Navbar (/screenshots/screenshot-1.png)]
+![Homepage Hero Banner with Navbar](/screenshots/screenshot-1.png)
 
 
